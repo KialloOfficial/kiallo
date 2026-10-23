@@ -1,0 +1,18 @@
+# Kiallo Fan-Creation License
+
+[中文](../ASSET-LICENSE.md) | [English](ASSET-LICENSE-en.md)
+
+Version 1.0 · 2026-10-23
+
+This is the English translation of the [Chinese license](../ASSET-LICENSE.md). The Chinese version is authoritative if the versions differ.
+
+The Chinese terms govern in case of a conflict. This license covers Kiallo character art, text and accompanying visual assets currently presented on the website, including its visual assets in public/assets, to the extent KialloOfficial has authority to license them. Design explorations and provisional notes in legacy are not current character canon. Separately identified third-party materials retain their own licenses. Website code uses the root [MIT LICENSE](../LICENSE); that code license does not grant unrestricted commercial rights to the character assets.
+
+1. **Fan creations welcome.** You may use, copy, display, share and adapt these materials for drawings, images, videos, fan stories, personal personas and noncommercial interactive experiences, including AI creations. When sharing originals, including the source and license is encouraged to help others understand the terms.
+2. **Commercial services require prior permission.** Commercial services featuring Kiallo as the primary lead require explicit written author permission before use. Examples include membership interactions, endorsements, paid character apps, merchandise and paid asset packs. A commercial operation centered on the character may require permission even when end users do not pay.
+3. **Exception for creations without direct charges.** Ordinary fan videos, images and stories that do not charge their audiences directly need no separate commercial approval, including ordinary platform ad revenue or view incentives. This exception excludes endorsements, commissioned brand advertising, paid access or downloads, members-only character content, and free content used to sell character merchandise or services.
+4. **Sharing the source is appreciated.** If convenient, consider mentioning “Kiallo / 卡尔洛 · Original character: KialloOfficial” in a description, page or credit, or link https://github.com/KialloOfficial/kiallo so others can meet her. Attribution and links are friendly suggestions, not conditions of this license. Including the license when sharing originals is welcome too.
+5. **Character identity.** Different styles, outfits and stories are welcome. Consider introducing new lore as your own interpretation so readers can discover your ideas. Fan creations do not represent official canon or author endorsement, or confer exclusive rights to the original character. Commercial applicants are welcome to describe their portrayal for guidance.
+6. **Derivative and third-party rights.** You retain rights to your original additions without restricting others' licensed use of the original character or relicensing original assets for unrestricted commercial use. You are responsible for third-party permissions. Only rights the licensor can grant are licensed; third-party rights are not guaranteed.
+7. **Applications.** Open a GitHub Issue describing the project, monetization, portrayal, platforms, term and scope. The author generally welcomes applications and may offer guidance and permission. Applying, silence, reactions and general discussions are not approval. Commercial rights depend on explicit written permission or a separate agreement.
+8. **Scope and breach.** This nonexclusive license does not transfer character ownership. Violating uses are unauthorized under this license. Upon notice, stop the violating use and discuss correction. Materials are provided as is without warranties to the extent permitted by law. All rights not expressly granted are reserved.

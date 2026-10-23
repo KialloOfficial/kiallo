@@ -1,5 +1,7 @@
 # 卡尔洛 Kiallo · 创作资产库
 
+[中文](README.md) | [English](docs/README-en.md)
+
 卡尔洛的角色故事、参考图与创作素材。基于 npm + Vite + React，支持中文 / English，以及手机和电脑布局。
 
 ## 本地运行
@@ -33,6 +35,7 @@ npm run preview
 
 现行角色内容以网站展示的基础故事、识别特征、图片与参考提示词为准。卡尔洛的 v1 参考还会继续细化与迭代；早期设计过程与未定稿笔记不作为现行设定发布。
 
+- `docs/README-en.md` 与 `docs/ASSET-LICENSE-en.md`：英文项目说明及资产许可译文。
 - `src/main.jsx`：双语文案、素材清单和页面组件。
 - `src/prompts.js`：四组参考提示词及英文版本。
 - `src/AssetPrompt.jsx`：参考提示词展示与复制。
@@ -56,6 +59,6 @@ npm run preview
 
 欢迎二创。不直接收费的视频、图片等作品，包括普通播放或广告分成，无需单独授权；以卡尔洛为首要主角开展商业服务需要作者明确书面许可，欢迎通过 GitHub Issue 申请。署名与来源链接属于友好建议。
 
-角色素材许可仅维护根目录 `ASSET-LICENSE.md` 一份。网站直接链接仓库中的这份文件，不在 `public/docs` 中生成副本。
+角色素材许可以根目录 [ASSET-LICENSE.md](ASSET-LICENSE.md) 中文版为准，[英文译文](docs/ASSET-LICENSE-en.md) 位于 `docs/`。网站按当前语言链接相应文件，不在 `public/docs` 中生成副本。
 
 页面参考了 [鲸鱼娘开源资产库](https://treapgogo.github.io/deepseek-whale-girl/index.html) 的资料整理思路，未复制代码或角色素材。

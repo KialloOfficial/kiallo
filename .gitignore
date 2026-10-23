@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.local
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+test-results/
+playwright-report/
+
+# Local archives of unused assets and source drafts
+/legacy/

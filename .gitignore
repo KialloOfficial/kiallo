@@ -17,3 +17,6 @@ playwright-report/
 
 # Local archives of unused assets and source drafts
 /legacy/
+
+# Temporary static rendering bundle
+.prerender/

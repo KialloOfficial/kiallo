@@ -2,6 +2,8 @@
 
 [中文](README.md) | [English](docs/README-en.md)
 
+**正式网站：[卡尔洛创作资产库](https://kialloofficial.github.io/kiallo/) · [English](https://kialloofficial.github.io/kiallo/en/)**
+
 卡尔洛的角色故事、参考图与创作素材。基于 npm + Vite + React，支持中文 / English，以及手机和电脑布局。
 
 ## 本地运行
@@ -36,7 +38,7 @@ npm run preview
 现行角色内容以网站展示的基础故事、识别特征、图片与参考提示词为准。卡尔洛的 v1 参考还会继续细化与迭代；早期设计过程与未定稿笔记不作为现行设定发布。
 
 - `docs/README-en.md` 与 `docs/ASSET-LICENSE-en.md`：英文项目说明及资产许可译文。
-- `src/main.jsx`：双语文案、素材清单和页面组件。
+- `src/App.jsx`：双语文案、素材清单和页面组件；`src/main.jsx`：浏览器交互入口。
 - `src/prompts.js`：四组参考提示词及英文版本。
 - `src/AssetPrompt.jsx`：参考提示词展示与复制。
 - `src/style.css`：视觉样式与响应式布局。
@@ -45,7 +47,7 @@ npm run preview
 
 当前背景先以角色为主体生成，再扩展为海滩全景，网页使用 `public/assets/beach-story-refined.webp`。旧版与制作过程资料仅在本地归档。
 
-语言选择保存在浏览器中。GitHub Star 数量加载时读取公共 API，此后每 60 秒刷新；失败时显示 `—`，可重试。关联项目提供真实仓库和投稿入口。字体有系统回退。导航使用锚点，无需服务端路由。
+中英文使用独立地址，通过顶栏切换；语言偏好记录在浏览器中，访问明确的语言地址时以地址为准。GitHub Star 数量加载时读取公共 API，此后每 60 秒刷新；失败时显示 `—`，可重试。关联项目提供真实仓库和投稿入口。字体有系统回退。导航使用锚点，无需服务端路由。
 
 ## 官方平台与创作参考
 
@@ -62,3 +64,13 @@ npm run preview
 角色素材许可以根目录 [ASSET-LICENSE.md](ASSET-LICENSE.md) 中文版为准，[英文译文](docs/ASSET-LICENSE-en.md) 位于 `docs/`。网站按当前语言链接相应文件，不在 `public/docs` 中生成副本。
 
 页面参考了 [鲸鱼娘开源资产库](https://treapgogo.github.io/deepseek-whale-girl/index.html) 的资料整理思路，未复制代码或角色素材。
+
+## 搜索收录
+
+构建时会将中文首页与英文首页预渲染为完整 HTML，正文、角色图、参考提示词和 FAQ 无需 JavaScript 即可读取；JavaScript 加载后接管筛选、预览、复制和 Star 更新等交互。两种语言各自具有规范地址、互相指向的 hreflang、分享信息与 WebSite 结构化数据。
+
+- 中文：https://kialloofficial.github.io/kiallo/
+- English：https://kialloofficial.github.io/kiallo/en/
+- Sitemap：https://kialloofficial.github.io/kiallo/sitemap.xml
+
+可在 Google Search Console 中验证站点并提交站点地图、申请抓取。这些措施便于发现和理解页面，不保证立即收录或排名。项目托管在 /kiallo/ 子路径；robots.txt 需要放在域名根目录，因此这里不生成无效的子路径 robots.txt。

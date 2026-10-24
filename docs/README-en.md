@@ -2,6 +2,8 @@
 
 [中文](../README.md) | [English](README-en.md)
 
+**Official website: [Kiallo Creative Asset Archive](https://kialloofficial.github.io/kiallo/en/) · [中文](https://kialloofficial.github.io/kiallo/)**
+
 Kiallo’s character story, reference art and creative assets. Built with npm, Vite and React, with Chinese and English interfaces and layouts for phones and desktops.
 
 ## Local development
@@ -35,7 +37,7 @@ The workflow derives the base path from the repository name. For a username.gith
 
 The current character material consists of the origin story, identifying features, images and reference prompts presented on the website. The v1 references will continue to evolve. Earlier design explorations and provisional notes are not published as current canon.
 
-- `src/main.jsx`: bilingual copy, asset list and page components.
+- `src/App.jsx`: bilingual copy, asset list and page components; `src/main.jsx`: browser entry point.
 - `src/prompts.js`: four sets of reference prompts in Chinese and English.
 - `src/AssetPrompt.jsx`: prompt display and copying.
 - `src/style.css`: visual styles and responsive layouts.
@@ -45,7 +47,7 @@ The current character material consists of the origin story, identifying feature
 
 The current background was created in two stages: a character-focused illustration, followed by an expanded beach panorama. The website uses `public/assets/beach-story-refined.webp`. Older versions and production materials remain in the local archive.
 
-Language selection is saved in the browser. The GitHub star count is fetched from the public API on load and refreshed every 60 seconds. On failure, it shows `—` and offers a retry. Related projects link to the repository and submission entry points. Fonts have system fallbacks. Navigation uses anchors and needs no server-side routing.
+Chinese and English have separate URLs, linked by the header switch. Language preference is recorded in the browser, but the explicit URL determines which language is shown. The GitHub star count is fetched from the public API on load and refreshed every 60 seconds. On failure, it shows `—` and offers a retry. Related projects link to the repository and submission entry points. Fonts have system fallbacks. Navigation uses anchors and needs no server-side routing.
 
 ## Official platform and creative references
 
@@ -62,3 +64,13 @@ Fan creations are welcome. Videos, images and similar works without direct audie
 The root [Chinese asset license](../ASSET-LICENSE.md) is authoritative. Its [English translation](ASSET-LICENSE-en.md) lives in `docs/`. The website links to the appropriate document for the selected language, without generating copies in `public/docs`.
 
 The site’s resource-organization approach was inspired by the [Whale Girl Open Asset Archive](https://treapgogo.github.io/deepseek-whale-girl/index.html). Its code and character assets were not copied.
+
+## Search discovery
+
+The build prerenders complete Chinese and English HTML pages. Character content, images, reference prompts and FAQs are readable without JavaScript. React hydrates the static pages to enable filters, image previews, copying and star updates. Each language has its own canonical URL, reciprocal hreflang links, sharing metadata and WebSite structured data.
+
+- Chinese: https://kialloofficial.github.io/kiallo/
+- English: https://kialloofficial.github.io/kiallo/en/
+- Sitemap: https://kialloofficial.github.io/kiallo/sitemap.xml
+
+Verify the site in Google Search Console to submit the sitemap and request indexing. These changes improve discoverability but do not guarantee immediate indexing or rankings. Since robots.txt must live at the domain root, this project does not generate an ineffective robots.txt under /kiallo/.
